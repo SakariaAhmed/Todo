@@ -10,8 +10,6 @@ function Tasks(props) {
         <button onClick={() => props.deleteTask(props.id)}>X</button>
     </div> 
     )   
-
-
 }
 
 export default Tasks;
